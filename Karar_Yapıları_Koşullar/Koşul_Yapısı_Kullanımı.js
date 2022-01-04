@@ -58,8 +58,7 @@
 // }
 
 
-//3.Örnek Tahmin Oyunu: Bilgisayar tarafından 10 'a kadar 
-//tutulmuş olan rastgele sayıyı bulalım:
+
 
 
 
