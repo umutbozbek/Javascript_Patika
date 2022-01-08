@@ -33,7 +33,36 @@ helloFunc4("helloFunc4","info4");
 
 
 
+//örnekler
 
+// 1-es5
+var sayi=function(x){
+    return x*x
+}
+//1-es6
+let sayi=x=>x*x;
 
+//2-es5
 
+var multipler=function(item,multi){
+    return item*multi
+};
+
+multipler(5,2);
+
+//2-es6
+
+let multipler=(item,multi)=>item*multi;
+multipler(5,2);
+
+//3-es5
+
+var myList = function(param1, param2) {
+    return param1.concat(param2);
+  };
+  myList([1, 2], [3, 4, 5]); // output : [ 1, 2, 3, 4, 5 ]
+
+const myList=(param1,param2) =>param1.concat(param2);
+
+myList([1, 2], [3, 4, 5])
 
