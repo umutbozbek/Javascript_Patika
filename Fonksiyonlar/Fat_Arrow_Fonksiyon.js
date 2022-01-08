@@ -66,3 +66,31 @@ const myList=(param1,param2) =>param1.concat(param2);
 
 myList([1, 2], [3, 4, 5])
 
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+var feedCat=(cat)=>{
+    if (cat==='hungry'){
+        return 'feed the cat';
+    }else {
+        return 'dont feed the cat';
+    }
+}
+
+let movie = { 
+
+    name: "La la land",
+    
+    thisInArrow:() => { 
+    console.log("Movie name is " + this.name); // 'this' window'u referans gösterir. Bu yüzden name'yi bulamaz.
+    }, 
+    
+    thisInRegular(){ 
+    console.log("Movie name is " + this.name); // 'this' kendisini referans gösterir ve çalışır.
+    } 
+    
+    };
+    movie.thisInArrow(); // output : Movie name is
+    movie.thisInRegular(); // output : Movie name is La la land
+
+
+    
