@@ -2,12 +2,12 @@
 //form submit
 
 
-let formDom=document.querySelector("#userForm")
+// let formDom=document.querySelector("#userForm")
 
-formDom.addEventListener("submit",formSubmit);
+// formDom.addEventListener("submit",formSubmit);
 
-function formSubmit(event) {
-    event.preventDefault() //default işlemi engelledik.
-    console.log("islem gerçekleşti")
-}
+// function formSubmit(event) {
+//     event.preventDefault() //default işlemi engelledik.
+//     console.log("islem gerçekleşti")
+// }
 
